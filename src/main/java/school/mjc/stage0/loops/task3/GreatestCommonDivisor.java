@@ -2,11 +2,19 @@ package school.mjc.stage0.loops.task3;
 
 public class GreatestCommonDivisor {
     public static void main(String[] args) {
-        printGCD(100, 10);
+        printGCD(30, 0);
     }
 
     public static void printGCD(int first, int second) {
         int result;
+        if(first == 0)
+        {
+            System.out.println(second);
+        }
+        if(second == 0)
+        {
+            System.out.println(first);
+        }
         if (first != 0 && second != 0 ) {
             if(first%second==0) {
                 System.out.println(second);

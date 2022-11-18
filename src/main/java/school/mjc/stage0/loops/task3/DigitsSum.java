@@ -2,20 +2,22 @@ package school.mjc.stage0.loops.task3;
 
 public class DigitsSum {
     public static void main(String[] args) {
-        printDigitsSum(451000);
+        printDigitsSum(-2010103);
     }
 
     public static void printDigitsSum(int t) {
         String b = String.valueOf(t);
-        b.length();
         int digit = 0;
-        int sum;
-        for (sum = 0; t > 0; digit = t % 10) {
+        int sum = 0;
+        for (int i = 0; i < b.length(); i++) {
+            digit = t % 10;
             sum = sum + digit;
             t = t / 10;
+        }
+        if (sum < 0) {
+            System.out.println(sum * (-1));
+        } else {
             System.out.println(sum);
-
-
         }
     }
 }

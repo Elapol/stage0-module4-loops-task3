@@ -6,7 +6,7 @@ public class AlphabetPrinter {
     }
     public static void printAlphabet() {
         char alphabet;
-        for(alphabet = 65;alphabet<=90;alphabet++)
+        for(alphabet = 97;alphabet<=122;alphabet++)
             System.out.println(alphabet);
     }
 }
