@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task3;
 
 public class RangeSum {
     public static void main(String[] args) {
-        printSumInclusive(2, 8); //  2 3 4 5 6 7 8 =35
+        printSumInclusive(0, 2); //  2 3 4 5 6 7 8 =35
     }
 
     public static void printSumInclusive(int firstBoarder, int secondBoarder) {

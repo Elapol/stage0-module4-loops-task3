@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task3;
 
 public class DigitsSum {
     public static void main(String[] args) {
-        printDigitsSum(-2010103);
+        printDigitsSum(4);
     }
 
     public static void printDigitsSum(int t) {

@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task3;
 
 public class GreatestCommonDivisor {
     public static void main(String[] args) {
-        printGCD(30, 0);
+        printGCD(0, 0);
     }
 
     public static void printGCD(int first, int second) {
